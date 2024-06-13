@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    border-radius: 2px;
+    background-color: magenta;
+    flex-direction: flex-start;
+}
+
+.header-container:nth-child(2) {
+    background-color: orange;
+    flex-direction: flex-end;
+}
